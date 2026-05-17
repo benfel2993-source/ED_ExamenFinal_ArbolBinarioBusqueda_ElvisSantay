@@ -1,14 +1,36 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("🔥 EJECUTANDO MAIN CORRECTO 🔥");
-
         BST arbol = new BST();
 
-        arbol.insert(10);
-        arbol.insert(5);
+        // INSERT
+        arbol.insert(50);
+        arbol.insert(30);
+        arbol.insert(70);
         arbol.insert(20);
+        arbol.insert(40);
+        arbol.insert(60);
+        arbol.insert(80);
 
-        System.out.println("FIN DEL PROGRAMA");
+        // SEARCH
+        System.out.println("Buscar 40: " + arbol.search(40));
+        System.out.println("Buscar 100: " + arbol.search(100));
+
+        // DELETE
+        arbol.delete(20);
+        arbol.delete(30);
+        arbol.delete(50);
+
+        // RECORRIDOS
+        System.out.println("InOrder:");
+        arbol.inOrder();
+
+        System.out.println("PreOrder:");
+        arbol.preOrder();
+
+        System.out.println("PostOrder:");
+        arbol.postOrder();
+
+        System.out.println("Árbol completo funcionando");
     }
 }
