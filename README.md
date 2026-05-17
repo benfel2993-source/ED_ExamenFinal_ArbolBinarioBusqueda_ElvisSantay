@@ -43,3 +43,4 @@ Documento de la fase #1: Fichas técnicas
 
 ## Enlace del video
 
+https://drive.google.com/file/d/1uu-crQxuXdqQZ-qPG3mRMnRpv3m4VOW-/view?usp=sharing
