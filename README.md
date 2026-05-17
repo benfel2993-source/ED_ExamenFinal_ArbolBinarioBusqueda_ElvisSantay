@@ -36,5 +36,10 @@ javac src/*.java
 java -cp src Main
 ```
 ---
+## Documento Fase#1
+
+Documento de la fase #1: Fichas técnicas
+[EXAMEN FINAL FASE 1 - ELVIS SANTAY.pdf](https://github.com/user-attachments/files/27877766/EXAMEN.FINAL.FASE.1.-.ELVIS.SANTAY.pdf)
+
 ## Enlace del video
 
